@@ -11,26 +11,38 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="converter.css" />
     <link rel="manifest" href="/manifest.json">
-    <title>Temperature converter</title>
+    <title>Whu Babe</title>
 </head>
 <body>
-    <form id="converter">
-        <label for="input-temp">temperature 温度</label>
-        <input type="text" id="input-temp" name="input-temp" value="20" />
-        <label for="input-unit">from 由</label>
-        <select id="input-unit" name="input-unit">
-            <option value="c" selected>Celsius</option>
-            <option value="f">Fahrenheit</option>
-            <option value="k">Kelvin</option>
-        </select>
-        <label for="output-unit">to 到</label>
-        <select id="output-unit" name="output-unit">
-            <option value="c">Celsius</option>
-            <option value="f" selected>Fahrenheit</option>
-            <option value="k">Kelvin</option>
-        </select>
-        <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
-    </form>
+    <div class="show">
+        <div class="page">
+
+            <form id="converter">
+                <label for="input-temp">temperature 温度</label>
+                <input type="text" id="input-temp" name="input-temp" value="20" />
+                <label for="input-unit">from 由</label>
+                <select id="input-unit" name="input-unit">
+                    <option value="c" selected>Celsius</option>
+                    <option value="f">Fahrenheit</option>
+                    <option value="k">Kelvin</option>
+                </select>
+                <label for="output-unit">to 到</label>
+                <select id="output-unit" name="output-unit">
+                    <option value="c">Celsius</option>
+                    <option value="f" selected>Fahrenheit</option>
+                    <option value="k">Kelvin</option>
+                </select>
+                <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
+            </form>
+        </div>
+        <div class="page">
+            <h1>武大宝宝</h1>
+
+            Develop your child's unique potential
+
+        </div>
+    </div>
+
     <script src="converter.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
