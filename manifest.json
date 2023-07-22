@@ -1,17 +1,17 @@
 {
-    "lang": "en-us",
-    "name": "Temperature converter app",
-    "short_name": "Temperature converter",
-    "description": "A basic temperature converter application that can convert to and from Celsius, Kelvin, and Fahrenheit",
-    "start_url": "/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
-    "orientation": "any",
-    "display": "standalone",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "sizes": "64x64"
-        }
-    ]
+  "lang": "zh-cn",
+  "name": "牛娃养成",
+  "short_name": "牛娃",
+  "description": "如何养成牛娃",
+  "start_url": "/",
+  "background_color": "#2f3d58",
+  "theme_color": "#2f3d58",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64"
+    }
+  ]
 }
