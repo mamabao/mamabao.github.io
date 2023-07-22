@@ -48,6 +48,16 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js', { scope: '/' });
         }
+
+        navigator.serviceWorker.ready.then(registration => {
+            if (registration.sync) {
+                // Background Sync is supported.
+                console.log("Background Sync is supported! ");
+            } else {
+                // Background Sync isn't supported.
+                console.log("Background Sync isn't supported: ", err);
+            }
+        });
     </script>
 </body>
 </html>
