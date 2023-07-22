@@ -33,6 +33,7 @@
                     <option value="k">Kelvin</option>
                 </select>
                 <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
+                <output name="output-msg" id="output-msg"> msg </output>
             </form>
         </div>
         <div class="page">
@@ -53,6 +54,7 @@
             if (registration.sync) {
                 // Background Sync is supported.
                 console.log("Background Sync is supported! ");
+                outputField.value = "Background Sync is supported!"
             } else {
                 // Background Sync isn't supported.
                 console.log("Background Sync isn't supported: ", err);
