@@ -2,3 +2,6 @@
 # visual studio
 .vs/
 
+# workbox
+node_modules/
+
